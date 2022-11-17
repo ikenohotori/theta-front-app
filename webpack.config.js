@@ -250,7 +250,7 @@ module.exports = (env, argv) => {
       historyApiFallback: true,
       proxy: {
         '/api': {
-          target: 'https://theta-back-app.herokuapp.com',
+          target: 'http://localhost:4000',
           pathRewrite: { '^/api': '' },
         },
       },

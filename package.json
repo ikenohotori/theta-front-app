@@ -3,7 +3,7 @@
   "version": "1.4.4",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_ENV=development npx webpack-dev-server --config ./webpack.config --open",
+    "start": "cross-env NODE_ENV=development npx webpack-dev-server --config ./webpack.config",
     "build": "cross-env NODE_ENV=development npx webpack --config ./webpack.config"
   },
   "dependencies": {
